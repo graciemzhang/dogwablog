@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;600&family=Dongle:wght@400;700&family=DynaPuff:wght@600&family=Karla:ital,wght@0,400;0,600;1,400&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #291301;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 2rem;
+    color: #FD7AE0;
+}
+
+h2 {
+    font-family: 'Anybody', cursive;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Anybody', cursive;
+    font-weight: normal;
+    font-size: 1.75rem;
+}
+
+a:visited,
+a:active,
+a:link,
+a:hover {
+    text-decoration: none;
+
+}
+
+.bold__item {
+    color: #FD7AE0;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+}
